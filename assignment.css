@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;  
+    background-image: url(Portfolio.png);  
+    background-size: cover;
+    background-position: center;
+}
+
+#navfst{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 50px;
+    /* background-color: red; */
+    align-items: center;
+    
+}
+#fst2{
+    height: 50px;width: 300px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+    align-items: center;
+    
+}
+
+#nav
+{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+color: white;
+display: flex;
+bottom: 150px;
+right: 100px;    
+
+}
+#secondpage{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+
+    
+}
+#scnd{
+    height: 200px;
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,bod{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 100px 100px;
+    display: flex;
+   justify-content: space-between;
+   
+
+
+}
+#content{
+    font-family: Gilroy;
+height: 500px;
+width: 500px;
+/* background-color: plum; */
+display: flex;
+flex-direction: column;
+color:black;
+padding: 20px;
+
+}
+#content p{
+    font-size: 20x;
+    font-weight: 100px;
+}
+
+.cont{
+    margin: 20px 0;
+}
+#cont2{
+    height: 500px;
+    width: 500px ;
+    /* background-color: palegreen; */
+    background-image: url(aniketanik.png);
+    background-size: cover;
+}
+#contentdown{
+    width: 500px;
+    height: 150px;
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 20px;
+}
+.contc{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    border: 2px solid black;
+    border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
